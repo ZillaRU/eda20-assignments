@@ -1,0 +1,69 @@
+---
+title: "Week 4 homework assignment"
+author: Student Name
+date: Due Date
+output: github_document
+editor_options:
+  chunk_output_type: inline
+---
+
+## DSI-EDA
+## Professor Cassy Dorff
+
+## STEPS:
+
+(1) Read the following article (it is for data purposes!)
+
+NPR "CHART: The Relationship Between Seeing Discrimination And Voting For Trump"
+- [link here](https://www.npr.org/2017/08/18/544265493/chart-the-relationship-between-seeing-discrimination-and-voting-for-trump)
+- [even more information on the data here](https://www.prri.org/research/americans-views-discrimination-immigrants-blacks-lgbt-sex-marriage-immigration-reform/)
+(2) Your goal is to recreate the graphic titled "Perceptions Of Discrimination Track Closely With Voting Against Trump." Data for analysis is in the "week4-hw-data.csv" file. Note that this data is from a different version of the PRRI survey, and the results won't match the NPR graph exactly.
+
+(3) Graphic replication: You should:
+1. Create an .rmd file to show your analysis. Write 1 sentence for each block of code, explaining what you do in that line of code.
+2. Identify and prepare the variables of interest (you may need to group, summarize, or rename variables to reflect the NPR chart.)
+3. Next recreate the graphic using ggplot. Recreate everything *except*:
+  - the labels that are on California and Wyoming.
+  - the colors (you can choose your own or use the same as the article)
+4. This means your plot should have the same labels on the axes, gridlines, etc.
+5. Is there anything misleading about the graphic? Why or why not?
+6. You can give your colleagues "hints" but do *not* give them the code for reproducing the graphic. That breaks our honor code since I asked you not to do it!
+
+(4) What do you think about this graphic? Do you think this relationship exists? Why or why not, in your own words?
+
+(5) Make one additional graphic of your choice using this data. Write 3-5 sentences in clear, plain language about what the graphic illustrates about the data.
+
+
+## Part 2
+
+Previously, we explored data about wine. 
+
+1. Make a barplot with the wine data to explore our original question about the relationship between alcohol content and quality. Why might a simple bar plot be misleading here? (Read a bit about geom_bar first, if needed)
+
+
+```{r}
+#answer
+
+```
+
+2. A lot of the hardwork in learning R skills is learning how to read helpfiles and use stackoverflow on your own. I showed you a glimpse of information about themes in class. Use the code below to make additional changes. This might take a bit of digging and reading about these graphical components online. Specifically, can you figure out how to (try to complete 2 out of 4):
+
+* get rid of panel border completely and keep the grid lines?
+* put the legend on the top or bottom?
+* capitalize the legend name appropriately?
+* add units for alcohol content and wine quality (if applicable)?
+
+```{r}
+ggplot(winequality_red, aes(x=quality, y= alcohol)) +
+      geom_jitter(aes(col=`fixed acidity`)) +
+      scale_color_viridis(option = "D", direction = -1, alpha = .6) +
+      labs(title="Alcohol Content, Fixed Acidity and Wine Quality", y="Alcohol Content", x="Wine Quality")  +
+      theme_bw()
+```
+
+
+2. Explain in 1-3 sentences what we can learn from our wine graphic produced in class.
+
+Answer: 
+
+
