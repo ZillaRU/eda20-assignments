@@ -10,7 +10,7 @@ editor_options:
 ## DSI-EDA
 ## Professor Cassy Dorff
 
-Note: Be warned, it can take some time to choose a good data set! You might find yourself trying one and then realizing you need to switch to another. This is normal. 
+Note: Be warned, it can take some time to choose a good data set! You might find yourself trying one and then realizing you need to switch to another. This is normal. This week's homework is worth 20 points instead of 10 in brightspace.
 
 # Part One
 1. Choose a data set from: [This Google Spreadsheet](https://docs.google.com/spreadsheets/d/17iP2DmaKpwl7mmAmeCFZd4Yq-xAQWvJ81U_XrreiAvs/edit#gid=0)
