@@ -1,0 +1,5 @@
+# Week 7 Homework 
+
+1. Study for the midterm
+2. Create a 'midterm repo. It should look like this "eda20-dorff-midterm"
+3. Don't forget to set it to private.
