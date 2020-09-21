@@ -1,0 +1,49 @@
+---
+title: "Week 5 homework assignment"
+author: Student Name
+date: Due Date
+output: github_document
+editor_options:
+  chunk_output_type: inline
+---
+
+## DSI-EDA
+## Professor Cassy Dorff
+
+Note: Be warned, it can take some time to choose a good data set! You might find yourself trying one and then realizing you need to switch to another. This is normal. 
+
+# Part One
+1. Choose a data set from: [This Google Spreadsheet](https://docs.google.com/spreadsheets/d/17iP2DmaKpwl7mmAmeCFZd4Yq-xAQWvJ81U_XrreiAvs/edit#gid=0)
+
+2. Once you have chosen your data, make a 'comment' in the first column and first row of your data as shown in the google spreadsheet. The comment should simply be your name. Once you've done this, no one else can use the data. If there is already a comment with someone's name, you cannot use it.
+
+# Part Two
+1. Write 3-5 sentences telling me about this data. 
+
+- What was it used for? Why was it collected? How would you describe the data generating process?
+- Who created this data, and why? 
+- What is the unit of analysis? 
+
+2. Explore the data. What are the dimensions of the data? What types of variables are there?
+
+# Part Three
+
+1. Center your analysis on an exploratory (or "motivating") question. Tell me what it is. Use complete sentences.
+
+2. Explore your question using visualizations. 
+
+- In the end, choose two 'final' plots to 'print' and interpret the visualization in 2-5 sentences. Do not show me tons of plots. Only include your final plots in your report. Create a separate file if needed.
+- Why did you choose this graphic? What does it show?
+
+# Part Four
+
+1. Answer the following questions:
+
+- how long did it take you to 'choose' this data?
+- how much data wrangling, joining, subsetting, or other forms of data manipulation (such as variable creation, or relabeling) did you have to do? Why did you do it?
+- what did you learn from your data exploration?
+
+# Part Five
+
+1. Save your 'write up' report in your homework repo. Knit to pdf file or github flavored markdown for easy online viewing.
+2. You write up should include all of the answers to the above questions. You can EITHER do your analysis and write up in one document, or you can save an R script for separate analysis, such as data cleaning, and reference it in your write up. *All of your work should be shown in your repository for this assignment*

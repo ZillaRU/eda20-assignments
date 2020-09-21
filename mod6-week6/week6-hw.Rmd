@@ -1,0 +1,15 @@
+# Week 6 Homework 
+
+This week, I want you to continue exploring the data you chose for last week's homework assignment. Each person should receive feedback from your TA. Update your report with the following information:
+
+1. What additional questions can you ask about this data? (Try to answer in complete sentences, not in bullets responding to each question. Treat these as prompts.)
+
+- Is there anything odd about this data? 
+- What kind of information do you wish the data had, but it does not?
+- Are there any missing data?
+
+2. What other trends or visualizations can you explore? 
+
+- Make sure to explore the distributions of different variables in the data. Describe the distributions. Are there any outliers?
+- Is it appropriate to explore the data using a correlogram? Why or why not? 
+- Use a different kind of visualization from whatever you used last week. You might have to change your 'motivating question' in order to sensibly use a different visualization. Justify your choice. Show your work.
